@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+
+}
+
+.shop{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    margin: 4px;
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    flex-basis: 30%;
+    min-width: 15%;
+}
+
+.pageHeader {
+    font-weight: bold;
+    text-align: left;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 6px;
+}
+
+
+body {
+    background: url(https://nbc24.com/resources/media/5d8b73f3-d4a3-4e4c-adc1-e0b8ceb09de6-large16x9_coffeeMGNPIXABAY.PNG?1568247151162) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
